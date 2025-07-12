@@ -8,21 +8,22 @@ A professional React Native flight booking app with:
 
 ## Features
 - **Sign Up & Login**: Secure, validated with AsyncStorage
-  - Email: At least 2 characters before `@`, at least 3 after
+  - Email:  `@` is required
   - Password: At least 1 capital letter, 1 special character, 1 number, min 6 chars
 - **Flight Search**: Oneway and round trip
 - **Centralized Colors**: All app colors are defined in `src/utlils/colors.ts` for easy theming
 - **Reusable Styles**: Consistent, scalable design
 
 ## Setup
-1. Clone the repo
+1. Clone the repo https://github.com/pankaj-oxit/spotter.git
 2. Run `npm install` or `yarn install`
 3. Install pods for iOS: `cd ios && pod install && cd ..`
 4. Start Metro: `npx react-native start`
 5. Run on device:
    - Android: `npx react-native run-android`
    - iOS: `npx react-native run-ios`
-
+6. Api is required to add if exceed the limit in `constants/urls`
+  
 ## Color System
 - All colors are defined in `src/utlils/colors.ts`:
   ```js
