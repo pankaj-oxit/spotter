@@ -48,7 +48,7 @@ A professional React Native flight booking app with:
 - After sign up, log in with the same credentials.
 
 ## Validation Rules
-- **Email**: Must have at least 2 characters before `@` and at least 3 after (e.g. `ab@xyz.com` is valid)
+- **Email**: Must have `@` is valid)
 - **Password**: Must have at least 1 capital letter, 1 special character, 1 number, and be at least 6 characters long
 
 ## Professional UI
